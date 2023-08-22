@@ -1,8 +1,10 @@
 module github.com/addetz/railway-go-demo
 
-go 1.21.0
+go 1.21
 
 require github.com/labstack/echo/v4 v4.11.1
+
+require github.com/gopherjs/gopherjs v1.17.2 // indirect
 
 require (
 	github.com/golang-jwt/jwt v3.2.2+incompatible // indirect
@@ -16,4 +18,5 @@ require (
 	golang.org/x/sys v0.10.0 // indirect
 	golang.org/x/text v0.11.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
+	honnef.co/go/js/dom v0.0.0-20230808055721-96db8f4d5e3b
 )
