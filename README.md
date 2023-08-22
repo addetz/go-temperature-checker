@@ -1,7 +1,8 @@
 # railway-go-demo
 This entire application is written in Go! 🥳 
+The JS code was generated with GopherJS. 
 
-## Prerequisites
+## Prerequisites
 1. [Go 1.21](https://go.dev/doc/install)
 1. [GopherJS](https://github.com/gopherjs/gopherjs) 
 ```
@@ -15,7 +16,7 @@ export WEATHER_API_KEY=XXX
 export SERVER_PORT=XXX
 ```
 
-## Run it 
+## Run it 
 After setting our variables, we run the server like any old server:
 ```
 $ go run server.go
