@@ -8,6 +8,7 @@ import (
 
 type BackendResponse struct {
 	Message     string `json:"message"`
+	CityName    string `json:"city_name"`
 	FeelsLike   string `json:"feels_like"`
 	Temp        string `json:"temp"`
 	Description string `json:"description"`

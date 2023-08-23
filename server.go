@@ -55,6 +55,7 @@ func main() {
 			Message:     fmt.Sprintf("Fetched data for %s", city),
 			FeelsLike:   apis.ConvertCelsius(response.Main.FeelsLike),
 			Temp:        apis.ConvertCelsius(response.Main.Temp),
+			CityName:    city,
 			Description: response.Weather[0].Description,
 		})
 	})
