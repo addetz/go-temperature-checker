@@ -70,7 +70,7 @@ func main() {
 // readPort reads the SERVER_PORT environment variable if one is set
 // or returns a default if none is found
 func readPort() string {
-	port, ok := os.LookupEnv("SERVER_PORT")
+	port, ok := os.LookupEnv("PORT")
 	if !ok {
 		return "8080"
 	}

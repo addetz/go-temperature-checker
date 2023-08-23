@@ -13,7 +13,7 @@ $ go install github.com/gopherjs/gopherjs@v1.18.0-beta3
 Sign up to [OpenWeatherMap](https://openweathermap.org/appid) to get your own API key. 
 ```
 export WEATHER_API_KEY=XXX
-export SERVER_PORT=XXX
+export PORT=XXX
 ```
 
 ## Run it 
