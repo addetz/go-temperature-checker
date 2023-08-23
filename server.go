@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/addetz/railway-go-demo/apis"
+	"github.com/addetz/go-temperature-checker/apis"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 )
@@ -72,7 +72,7 @@ func main() {
 func readPort() string {
 	port, ok := os.LookupEnv("SERVER_PORT")
 	if !ok {
-		return "1323"
+		return "8080"
 	}
 	return port
 }

@@ -1,6 +1,6 @@
-module github.com/addetz/railway-go-demo
+module github.com/addetz/go-temperature-checker
 
-go 1.21
+go 1.21.0
 
 require github.com/labstack/echo/v4 v4.11.1
 

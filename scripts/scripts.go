@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/addetz/railway-go-demo/apis"
+	"github.com/addetz/go-temperature-checker/apis"
 	"honnef.co/go/js/dom"
 )
 

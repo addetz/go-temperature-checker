@@ -21,3 +21,9 @@ After setting our variables, we run the server like any old server:
 ```
 $ go run server.go
 ```
+
+Alternatively, you can run the server in Docker: 
+```
+$ docker build -f Dockerfile -t tempserver .
+$ docker run -dt -e WEATHER_API_KEY=$WEATHER_API_KEY -p 8080:8080/tcp tempserver
+```
