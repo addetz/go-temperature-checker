@@ -1,6 +1,6 @@
 module github.com/addetz/go-weather-checker
 
-go 1.21.0
+go 1.21
 
 require (
 	github.com/addetz/go-temperature-checker v0.0.0-20230823113357-a67aba318d21
