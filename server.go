@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/addetz/go-temperature-checker/apis"
+	"github.com/addetz/go-weather-checker/apis"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 )

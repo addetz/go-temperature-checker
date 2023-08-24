@@ -1,3 +1,5 @@
+github.com/addetz/go-temperature-checker v0.0.0-20230823113357-a67aba318d21 h1:4M/REE3QRwUzIaDp96swh/5anzTJ8StBiw/+m3SHmqI=
+github.com/addetz/go-temperature-checker v0.0.0-20230823113357-a67aba318d21/go.mod h1:ksfbr2vWYtyww60lCeNyLJshiTvKUvXm0D2hKQCqnIs=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
