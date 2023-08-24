@@ -22,19 +22,12 @@ jobs:
 
       - name: Build
         run: go build -v ./...
-        
+
       - name: Test with the Go CLI
         run: go test ./... -v
 
-      - name: Use Node 12
-        uses: actions/setup-node@v1
-        with:
-          node-version: 12.x
-
-      - name: Install Railway
-        run: npm i -g @railway/cli
-
-      - name: Deploy
-        run: railway up
-        env:
-          RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
+      - name: Deploy Railway
+      uses: bervProject/railway-deploy@main
+      with:
+        railway_token: ${{ secrets.RAILWAY_TOKEN }}
+        service: ${{ secrets.RAILWAY_SERVICE }}
